@@ -1,0 +1,164 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+	background-image: url("images/tulips.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	
+	
+}
+
+.center {
+	border-radius: 40px;
+	width: 50%;
+	min-width: 500px;
+	min-height: fit-content;
+	padding: 2%;
+    margin: 100px auto;
+ 	background:rgba(0, 62, 72, 0.50); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border:3px solid white
+}
+
+.beetlename {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+     transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+}
+
+.beetlename:hover {
+    -webkit-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+     transform: rotate(720deg);
+}
+
+#logo {
+    margin-bottom: 16px;
+	border: 3px dashed red;
+	text-align: center;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'Kalnia', serif;
+	font-size: 2em;
+	font-weight: 600;
+    margin: 0px auto 10px auto;
+    color: #ffffff;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: 'Kalnia', serif;
+    font-size: 2em;
+	font-weight: 300;
+	 line-height: 2.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+
+nav{
+	font-family: 'Lobster Two', sans-serif;
+	font-size: 1.5em;
+	width: auto;
+	margin: 0 auto;
+	border: solid rgb(122, 255, 242);
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+	background-color: rgba(0, 143, 159, 0.5);
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	color: black;
+	background: pink;
+}
+    
+    
+
